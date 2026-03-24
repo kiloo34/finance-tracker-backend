@@ -1,0 +1,19 @@
+fastapi[standard]>=0.110.0
+uvicorn[standard]>=0.29.0
+sqlalchemy>=2.0.29
+pydantic>=2.7.0
+pydantic-settings>=2.2.1
+asyncpg
+greenlet
+passlib[bcrypt]
+python-jose[cryptography]
+slowapi
+alembic
+
+# Test dependencies
+pytest>=7.0.0
+pytest-asyncio
+httpx
+aiosqlite
+
+user-agents   # parse browser/OS dari User-Agent header
